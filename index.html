@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kitcat</title>
+</head>
+<body>
+    
+    <header class="header">
+        <nav class="nav">
+            <h1 class="logo">Kitcat</h1>
+            <ul class="nav-list">
+                <li class="nav-item"><a href="#" class="nav-link">About</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Contact</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Blog</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="call-to-action">
+            <h2 class="call-to-action-title">Your favorite place for fluffy kittens on the internet.</h2>
+            <p class="call-to-action-text">This is a site to inform the public on the benefits of fluffy kittens.
+                You don't really need to copy this paragraph word for word. As long as you have a paragraph element and a <a href="#">link</a> you're good.    
+            </p>
+        </div>
+        <img src="./the-lucky-neko-MEQFUHzCtAo-unsplash.jpg" alt="Several baby kittens on a white background" class="kitten-pic">
+        <p><span>Photo by <a href="https://unsplash.com/@theluckyneko?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">The Lucky Neko</a> on <a href="https://unsplash.com/s/photos/kittens?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span></p>
+
+        <picture class="kitten-pic">
+            <source srcset="./the-lucky-neko-uePn9YCTCY0-unsplash-300w.jpg"
+                    media="(max-width: 800px)">
+            <img src="./the-lucky-neko-uePn9YCTCY0-unsplash.jpg" alt="Three small kittens laying on the floor">
+            <p><span>Photo by <a href="https://unsplash.com/@theluckyneko?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">The Lucky Neko</a> on <a href="https://unsplash.com/s/photos/kittens?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span></p>
+        </picture>
+
+        
+    </main>
+    <form action="" method="GET" class="email-list">
+        <h3 class="email-list-title">Join our email list.</h3>
+        <div class="name">
+            <label for="name"> Name</label>
+            <input type="text" id="name">
+        </div>
+        <div class="email">
+            <label for="email"> Email
+            </label>
+            <input type="email">
+        </div>
+        <button type="submit" onclick="function handleForm(event) { event.preventDefault(); }">Register</button>
+    </form>
+</body>
+</html>
