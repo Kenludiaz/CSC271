@@ -1,0 +1,1 @@
+This is a site for CSC 271. This is meant to help teach others about HTML.
